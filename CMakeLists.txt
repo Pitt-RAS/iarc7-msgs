@@ -46,6 +46,7 @@ find_package(catkin REQUIRED
 add_message_files(
     FILES
     FlightControllerStatus.msg
+    FlightControllerRx.msg
 #   Message2.msg
 )
 
