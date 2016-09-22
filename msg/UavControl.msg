@@ -1,4 +1,4 @@
-# Flight Controller Rx values
+# Flight Controller Angle values
 
 Header header
 float32 pitch_degrees
