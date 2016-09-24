@@ -46,9 +46,9 @@ find_package(catkin REQUIRED
 add_message_files(
     FILES
     FlightControllerStatus.msg
-    UavControl.msg
-    UavThrottle.msg
-#   Message2.msg
+    Float64Stamped.msg
+    OrientationAngles.msg
+    OrientationAnglesStamped.msg
 )
 
 ## Generate services in the 'srv' folder
