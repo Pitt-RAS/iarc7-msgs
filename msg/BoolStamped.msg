@@ -1,2 +1,2 @@
 Header header
-bool arm_request
+bool data
