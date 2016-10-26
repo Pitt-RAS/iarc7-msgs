@@ -49,6 +49,7 @@ add_message_files(
     Float64Stamped.msg
     OrientationAngles.msg
     OrientationAnglesStamped.msg
+    BoolStamped.msg
 )
 
 ## Generate services in the 'srv' folder
