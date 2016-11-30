@@ -52,7 +52,7 @@ add_message_files(
     OrientationAngles.msg
     OrientationAnglesStamped.msg
     OrientationThrottleStamped.msg
-    TwistStampedMultiArray.msg
+    TwistStampedArrayStamped.msg
 )
 
 ## Generate services in the 'srv' folder
