@@ -6,6 +6,7 @@ project(iarc7_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED
              std_msgs
+             geometry_msgs
              message_generation
 )
 
@@ -45,12 +46,13 @@ find_package(catkin REQUIRED
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
+    BoolStamped.msg
     FlightControllerStatus.msg
     Float64Stamped.msg
     OrientationAngles.msg
     OrientationAnglesStamped.msg
     OrientationThrottleStamped.msg
-    BoolStamped.msg
+    TwistStampedMultiArray.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -71,6 +73,7 @@ add_message_files(
 generate_messages(
     DEPENDENCIES
     std_msgs  # Or other packages containing msgs
+    geometry_msgs
 )
 
 ################################################
