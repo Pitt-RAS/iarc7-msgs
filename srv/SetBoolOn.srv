@@ -1,0 +1,5 @@
+string id # thing to set the bool on
+bool data # bool to be set
+---
+bool success   # indicate success or failure
+string message # for error messages or other information
