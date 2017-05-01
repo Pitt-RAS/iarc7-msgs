@@ -57,6 +57,7 @@ add_message_files(
     OrientationAnglesStamped.msg
     OrientationThrottleStamped.msg
     TwistStampedArrayStamped.msg
+    LandingGearContactsStamped.msg
 )
 
 ## Generate services in the 'srv' folder
