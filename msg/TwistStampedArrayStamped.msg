@@ -1,2 +1,2 @@
 Header header
-geometry_msgs/TwistStamped[] data
+iarc7_msgs/TwistStampedArray twists
