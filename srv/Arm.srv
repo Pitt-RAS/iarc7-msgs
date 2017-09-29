@@ -1,6 +1,4 @@
 bool data
-bool set_mode
-bool angle
 ---
 bool success
 string message
