@@ -53,6 +53,8 @@ add_message_files(
     BoolStamped.msg
     FlightControllerStatus.msg
     Float64Stamped.msg
+    Obstacle.msg
+    ObstacleArray.msg
     OdometryArray.msg
     OrientationAngles.msg
     OrientationAnglesStamped.msg
