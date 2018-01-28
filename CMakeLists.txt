@@ -52,6 +52,7 @@ add_message_files(
     FILES
     BoolStamped.msg
     FlightControllerStatus.msg
+    Float64ArrayStamped.msg
     Float64Stamped.msg
     Obstacle.msg
     ObstacleArray.msg
