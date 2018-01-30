@@ -61,6 +61,8 @@ add_message_files(
     OrientationAnglesStamped.msg
     OrientationThrottleStamped.msg
     PlanarThrottleStamped.msg
+    RoombaDetection.msg
+    RoombaDetectionFrame.msg
     TwistStampedArray.msg
     TwistStampedArrayStamped.msg
     LandingGearContactsStamped.msg
