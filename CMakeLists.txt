@@ -60,6 +60,7 @@ add_message_files(
     OrientationAngles.msg
     OrientationAnglesStamped.msg
     OrientationThrottleStamped.msg
+    PlanarThrottleStamped.msg
     TwistStampedArray.msg
     TwistStampedArrayStamped.msg
     LandingGearContactsStamped.msg
