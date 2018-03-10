@@ -1,0 +1,1 @@
+UAVMotionPointStamped[] motion_points
