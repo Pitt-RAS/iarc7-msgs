@@ -1,2 +1,2 @@
 Header header
-UAVMotionPoint motion_point
+MotionPoint motion_point

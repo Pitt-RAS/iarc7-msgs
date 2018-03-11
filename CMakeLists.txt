@@ -64,9 +64,9 @@ add_message_files(
     TwistStampedArray.msg
     TwistStampedArrayStamped.msg
     LandingGearContactsStamped.msg
-    UAVMotionPoint.msg
-    UAVMotionPointStamped.msg
-    UAVMotionPointStampedArray.msg
+    MotionPoint.msg
+    MotionPointStamped.msg
+    MotionPointStampedArray.msg
 )
 
 ## Generate services in the 'srv' folder

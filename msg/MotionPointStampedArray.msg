@@ -1,1 +1,1 @@
-UAVMotionPointStamped[] motion_points
+MotionPointStamped[] motion_points
