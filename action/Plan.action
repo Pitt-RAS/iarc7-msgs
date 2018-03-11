@@ -1,16 +1,6 @@
 Header header
 
-float64 x_pos_goal
-float64 y_pos_goal
-float64 z_pos_goal
-
-float64 x_vel_goal
-float64 y_vel_goal
-float64 z_vel_goal
-
-float64 x_accel_goal
-float64 y_accel_goal
-float64 z_accel_goal
+MotionPointStamped goal
 ---
 #result definition
 bool success
