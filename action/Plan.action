@@ -1,5 +1,4 @@
-# goal definition
-string frame_id
+Header header
 
 float64 x_pos_goal
 float64 y_pos_goal
