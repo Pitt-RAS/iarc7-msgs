@@ -1,0 +1,9 @@
+Header header
+
+MotionPointStamped goal
+---
+#result definition
+bool success
+---
+#feedback
+MotionPointStampedArray plan
