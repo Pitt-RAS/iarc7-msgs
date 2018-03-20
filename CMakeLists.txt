@@ -50,8 +50,10 @@ find_package(catkin REQUIRED
 ## Generate messages in the 'msg' folder
 add_message_files(
     FILES
+    Nano.msg
     BoolStamped.msg
     FlightControllerStatus.msg
+    FlowVector.msg
     Float64ArrayStamped.msg
     Float64Stamped.msg
     Obstacle.msg
