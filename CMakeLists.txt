@@ -69,6 +69,8 @@ add_message_files(
     MotionPoint.msg
     MotionPointStamped.msg
     MotionPointStampedArray.msg
+    RoombaStateStamped.msg
+    RoombaStateStampedArray.msg
 )
 
 ## Generate services in the 'srv' folder
