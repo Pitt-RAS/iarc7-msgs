@@ -5,4 +5,4 @@ string roomba_id
 bool turning
 bool moving_forward
 
-nav_msgs/Odometry data
+nav_msgs/Odometry odom
