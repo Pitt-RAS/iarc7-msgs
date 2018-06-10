@@ -1,0 +1,15 @@
+Header header
+
+int32 num_starting_vectors
+int32 num_rejection_region_vectors
+int32 num_roomba_region_vectors
+int32 num_exceeded_element_var_vectors
+int32 num_accepted_vectors
+
+Vector2 sample_std_dev_eigen_values
+Vector2 sample_average
+
+Vector2 filtered_std_dev_eigen_values
+Vector2 filtered_average
+
+Vector2 sample_filtered_average_diff

@@ -57,6 +57,7 @@ add_message_files(
     FlowVector.msg
     Float64ArrayStamped.msg
     Float64Stamped.msg
+    FlowQuality.msg
     Obstacle.msg
     ObstacleArray.msg
     OdometryArray.msg
@@ -74,6 +75,7 @@ add_message_files(
     MotionPointStampedArray.msg
     RoombaStateStamped.msg
     RoombaStateStampedArray.msg
+    Vector2.msg
 )
 
 ## Generate services in the 'srv' folder
