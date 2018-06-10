@@ -12,4 +12,4 @@ Vector2 sample_average
 Vector2 filtered_std_dev_eigen_values
 Vector2 filtered_average
 
-Vector2 sample_filtered_average_diff
+Vector2 diff_filtered_and_sample_avg
