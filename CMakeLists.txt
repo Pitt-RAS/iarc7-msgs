@@ -12,6 +12,7 @@ find_package(catkin REQUIRED
              geometry_msgs
              message_generation
              nav_msgs
+             sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -58,6 +59,7 @@ add_message_files(
     Float64ArrayStamped.msg
     Float64Stamped.msg
     FlowQuality.msg
+    HeightImage.msg
     Obstacle.msg
     ObstacleArray.msg
     OdometryArray.msg
@@ -96,6 +98,7 @@ generate_messages(
     DEPENDENCIES
     std_msgs
     geometry_msgs
+    sensor_msgs
     nav_msgs
     actionlib_msgs
 )
@@ -133,7 +136,7 @@ catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES iarc7_msgs
    CATKIN_DEPENDS message_generation
-#  DEPENDS system_lib 
+#  DEPENDS system_lib
 )
 
 ###########
