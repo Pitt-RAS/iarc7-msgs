@@ -1,5 +1,6 @@
 Header header
 
+MotionPointStamped start
 MotionPointStamped goal
 ---
 #result definition
