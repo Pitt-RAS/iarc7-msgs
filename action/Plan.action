@@ -5,6 +5,8 @@ MotionPointStamped goal
 ---
 #result definition
 bool success
+MotionPointStampedArray plan
+float64 total_time
 ---
 #feedback
-MotionPointStampedArray plan
+bool success
