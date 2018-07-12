@@ -3,8 +3,10 @@ Header header
 MotionPointStamped start
 MotionPointStamped goal
 ---
-#result definition
+# result definition
 bool success
----
-#feedback
+float64 total_time
 MotionPointStampedArray plan
+---
+# feedback
+bool success
