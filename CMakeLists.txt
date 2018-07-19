@@ -53,6 +53,7 @@ add_message_files(
     FILES
     Nano.msg
     BoolStamped.msg
+    Boundary.msg
     ESCCommand.msg
     FlightControllerStatus.msg
     FlowVector.msg
